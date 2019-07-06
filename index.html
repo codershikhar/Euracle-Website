@@ -2,17 +2,6 @@
 <html lang="en">
 
 <head>
-
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141249269-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-
-	  gtag('config', 'UA-141249269-1');
-	</script>
-
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,10 +25,15 @@
 	<link type="text/css" rel="stylesheet" href="css/magnific-popup.css" />
 
 	<!-- Font Awesome Icon -->
+	<!-- <script src="https://use.fontawesome.com/releases/v5.9.0/js/all.js" data-auto-replace-svg="nest"></script> -->
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 
 	<!-- Custom stlylesheet -->
 	<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+	<link rel="stylesheet" type="text/css" href="./css/honeycombs.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="./js/jquery.honeycombs.js"></script>
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -98,6 +92,7 @@
 					<li><a href="#service">Services</a></li>
 					<li><a href="#features">Why Us?</a></li>
 					<li><a href="#technologies">Technologies</a></li>
+					<li><a href="#team">Team</a></li>
 					<!-- <li class="has-dropdown"><a href="#blog">Blog</a>
 						<ul class="dropdown">
 							<li><a href="blog-single.html">blog post</a></li>
@@ -137,7 +132,7 @@
 	<!-- /Header -->
 
 	<!-- About -->
-	<div id="about" class="section md-padding">
+	<div id="about" class="section md-padding" style="padding-bottom: 0px !important;">
 
 		<!-- Container -->
 		<div class="container">
@@ -345,7 +340,7 @@
 	<!-- /Why Choose Us -->
 
 	<!-- Technologies -->
-	<div id="technologies" class="section sm-padding">
+	<div id="technologies" class="section sm-padding" style="padding-bottom: 0px !important;">
 
 		<!-- Background Image -->
 		<div class="bg-img2" style="background-image: url('./img/background1.jpg');">
@@ -357,7 +352,7 @@
 		<div class="container">
 
 			<!-- Row -->
-			<div class="row">
+			<div class="row" style="margin-bottom: 50px;">
 				<h3
 					style="display: flex; justify-content: space-around; font-size: 30px; color: white; font-weight: bold; text-shadow: 5px 5px 5px black;">
 					Technologies We are great at!</h3>
@@ -365,22 +360,26 @@
 			<!-- /Row -->
 
 			<!-- Row -->
-			<div id="tech-slider" class="row">
-				<div id="tech-slide-container">
-					<img class="tech-slide" src="./img/techs/Angular.png">
-					<img class="tech-slide" src="./img/techs/Aws.png">
-					<img class="tech-slide" src="./img/techs/Django.png">
-					<img class="tech-slide" src="./img/techs/Elk.png">
-					<img class="tech-slide" src="./img/techs/Firebase.png">
-					<img class="tech-slide" src="./img/techs/Flask.png">
-					<img class="tech-slide" src="./img/techs/Ionic.png">
-					<img class="tech-slide" src="./img/techs/Java.png">
-					<img class="tech-slide" src="./img/techs/MongoDB.png">
-					<img class="tech-slide" src="./img/techs/MySQL.png">
-					<img class="tech-slide" src="./img/techs/Postgresql.png">
-					<img class="tech-slide" src="./img/techs/Python.png">
-					<img class="tech-slide" src="./img/techs/Spring.png">
-					<img class="tech-slide" src="./img/techs/html.png">
+			<div class="row" style="margin-bottom: -50px;">
+				<div class="honeycombs">
+					<div class="comb"> <img src="./img/techs/Angular.png" /> <span>Angular</span> </div>
+					<div class="comb"> <img src="./img/techs/Aws.png" /> <span>AWS</span> </div>
+					<div class="comb"> <img src="./img/techs/Django.png" /> <span>Django</span> </div>
+					<div class="comb"> <img src="./img/techs/Elk.png" /> <span>ELK</span> </div>
+					<div class="comb"> <img src="./img/techs/Firebase.png" /> <span>Firebase</span> </div>
+					<div class="comb"> <img src="./img/techs/Flask.png" /> <span>Flask</span> </div>
+					<div class="comb"> <img src="./img/techs/html.png" /> <span>HTML<br/>CSS, JS</span> </div>
+					<div class="comb"> <img src="./img/techs/Ionic.png" /> <span>Ionic</span> </div>
+					<div class="comb"> <img src="./img/techs/Java.png" /> <span>Java</span> </div>
+					<div class="comb"> <img src="./img/techs/MongoDB.png" /> <span>MongoDB</span> </div>
+					<div class="comb"> <img src="./img/techs/MySQL.png" /> <span>MySQL</span> </div>
+					<div class="comb"> <img src="./img/techs/Postgresql.png" /> <span>PostgreSQL</span> </div>
+					<div class="comb"> <img src="./img/techs/Python.png" /> <span>Python</span> </div>
+					<div class="comb"> <img src="./img/techs/Spring.png" /> <span>Spring</span> </div>
+					<div class="comb"> <img src="./img/techs/React.png" /> <span>React Native</span> </div>
+					<div class="comb"> <img src="./img/techs/Docker.png" /> <span>Docker</span> </div>
+					<div class="comb"> <img src="./img/techs/NodeJs.png" /> <span>Node JS</span> </div>
+					<div class="comb"> <img src="./img/techs/Tensorflow.png" /> <span>Tensorflow<br/>Keras</span> </div>
 				</div>
 			</div>
 			<!-- /Row -->
@@ -390,6 +389,95 @@
 
 	</div>
 	<!-- /Technologies -->
+
+	<!-- Team -->
+	<div id="team" class="section md-padding bg-grey">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Our Team</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- team -->
+				<div class="col-sm-4">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./img/team1.jpg" alt="">
+							<div class="overlay">
+								<div class="team-social">
+									<a href="https://www.linkedin.com/in/codershikhar/"><i
+											class="fa fa-linkedin"></i></a>
+									<a href="https://www.youtube.com/channel/UCur2TYfXh4MnFJizajX2g_A"><i
+											class="fa fa-youtube"></i></a>
+									<a href="https://twitter.com/codershikhar"><i class="fa fa-twitter"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3>Shikhar Agrawal</h3>
+							<span>Founder, CEO<br />Fullstack and ML Developer</span>
+						</div>
+					</div>
+				</div>
+				<!-- /team -->
+
+				<!-- team -->
+				<div class="col-sm-4">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./img/team2.jpg" alt="">
+							<div class="overlay">
+								<div class="team-social">
+									<a href="https://www.linkedin.com/in/sapan-jakhetiya-730039ab"><i class="fa fa-linkedin"></i></a>
+									<a href="https://www.facebook.com/sapan.jakhetiya"><i class="fa fa-facebook"></i></a>
+									<a href="https://twitter.com/sapanjakhetiya?s=08"><i class="fa fa-twitter"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3>Sapan Jakhetia</h3>
+							<span>COO<br />Head of Client Acquisition</span>
+						</div>
+					</div>
+				</div>
+				<!-- /team -->
+
+				<!-- team -->
+				<div class="col-sm-4">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./img/team3.jpg" alt="">
+							<div class="overlay">
+								<div class="team-social">
+									<a href="https://www.linkedin.com/in/rishabhkumarjha/"><i class="fa fa-linkedin"></i></a>
+									<a href="https://www.facebook.com/rishabh.jha.503"><i class="fa fa-facebook"></i></a>
+									<a href="https://blog.solvingx.in/blogs/"><i class="fa fa-newspaper-o"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3>Rishabh Kumar Jha</h3>
+							<span>CTO<br />Fullstack and Blockchain Developer</span>
+						</div>
+					</div>
+				</div>
+				<!-- /team -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Team -->
 
 	<!-- Contact -->
 	<div id="contact" class="section md-padding">
